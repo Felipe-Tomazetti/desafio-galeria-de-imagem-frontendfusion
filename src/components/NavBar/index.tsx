@@ -61,12 +61,6 @@ const Navbar = () => {
             >
               Home
             </a>
-            <a
-              href="/favoritos"
-              className="hover:text-gray-600 transition-colors duration-300"
-            >
-              Imagens Favoritas
-            </a>
           </div>
         </div>
       )}
