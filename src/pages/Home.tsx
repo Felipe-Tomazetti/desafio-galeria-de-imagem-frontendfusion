@@ -1,5 +1,6 @@
 import ImageList from "../components/ImageList";
 import Navbar from "../components/NavBar";
+import ImagesFilter from "../components/ImagesFilter";
 
 const Home = () => {
   return (

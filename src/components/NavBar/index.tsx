@@ -25,16 +25,6 @@ const Navbar = () => {
           >
             Home
           </a>
-          <a
-            href="/favoritos"
-            className={`${
-              isActive("/favoritos")
-                ? "bg-blue-700 px-4 py-2 rounded-md text-white font-bold"
-                : "hover:text-gray-600 transition-colors duration-300 font-bold py-2"
-            }`}
-          >
-            Imagens Favoritas
-          </a>
         </div>
 
         <div className="md:hidden">

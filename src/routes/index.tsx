@@ -12,10 +12,6 @@ export const AppRouter = () => {
       element: renderComponent("/home"),
     },
     {
-      path: "/favoritos",
-      element: renderComponent("/favoritos"),
-    },
-    {
       path: "*",
       element: <Navigate to="/" replace />,
     },

@@ -3,12 +3,12 @@ import { imageListItem } from "../types/types";
 
 interface GlobalStore {
   imagesList: imageListItem[];
-  favoriteImagesList: string[];
+  favoriteImagesList: imageListItem[];
 }
 
 interface GlobalStoreActions {
   setImagesList: (imagesList: imageListItem[]) => void;
-  setFavoriteImagesList: (favoriteImagesList: string[]) => void;
+  setFavoriteImagesList: (favoriteImagesList: imageListItem[]) => void;
 }
 
 export const useGlobalStore = create<GlobalStore & GlobalStoreActions>(

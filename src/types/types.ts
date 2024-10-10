@@ -5,4 +5,7 @@ export type imageListItem = {
   height: number;
   url: string;
   download_url: string;
+  isFavorite: boolean;
+  color: boolean;
+  category: boolean;
 };
