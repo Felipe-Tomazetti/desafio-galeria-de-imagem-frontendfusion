@@ -10,9 +10,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gradient-to-r from-blue-500 to-transparent shadow-md fixed w-full z-10">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold">
-          <a href="/">MyLogo</a>
-        </div>
+        <div className="text-2xl font-bold"></div>
 
         <div className="hidden md:flex space-x-8">
           <a
